@@ -35,4 +35,3 @@ Additional Information
 This project uses Angular 17 for the frontend.
 
 ##The backend is made in SpringBoot reach out to me directly on [GitHub](https://github.com/Rushi1116)
-Run the following command to start the Angular development server:
