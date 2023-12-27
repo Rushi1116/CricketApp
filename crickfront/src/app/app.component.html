@@ -1,2 +1,23 @@
-<h1>This is starting point</h1>
-<button class="">Click Me</button>
+<header class="bg-gray-100">
+
+  <div class="bg-blue-500 p-3 text-white">
+    <div class="container mx-auto flex items-center justify-between">
+      <div class="flex items-center">
+        <img src="assets/images/cricket-adda-logo.png" alt="Cricket Thumbnail" class="h-10 w-10 mr-2" >
+        <h1 class="text-2xl font-bold animate-bounce">Cricket Adda</h1>
+      </div>
+
+      <nav class="flex space-x-4">
+        <a [routerLink]="'/home'" href="#" class="hover:text-gray-300">Home</a>
+        <a [routerLink]="'/live'" href="#" class="hover:text-gray-300">Live Matches</a>
+        <a [routerLink]="'/history'" href="#" class="hover:text-gray-300">History</a>
+        <a [routerLink]="'/point-table'" href="#" class="hover:text-gray-300">Point Table</a>
+      </nav>
+      <div></div>
+    </div>
+  </div>
+</header>
+<div class="px-28 py-4">
+  <router-outlet></router-outlet>
+</div>
+<h1>Footer</h1>
