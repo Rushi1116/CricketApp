@@ -25,7 +25,7 @@ Follow these steps to set up and run the Cricket App locally.
 3. Install Dependencies
    npm install
 
-##Running the Application
+## Running the Application
 1. Start the Development Server:
    ng serve
 The application will be available at http://localhost:4200/ by default.
